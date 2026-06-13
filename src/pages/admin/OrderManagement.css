@@ -1,0 +1,65 @@
+.order-management {
+    padding: 40px;
+}
+
+.order-management h1 {
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #2e7d32;
+    color: white;
+}
+
+th,
+td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.delivered {
+    background: #d4edda;
+    color: #155724;
+}
+
+.processing {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.pending {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.view-btn {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}

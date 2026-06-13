@@ -1,0 +1,29 @@
+.filter-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.filter-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #f3f4f6;
+    color: #333;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.filter-container button:hover {
+    background: #2e7d32;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.active-filter {
+    background: #2e7d32 !important;
+    color: white !important;
+}

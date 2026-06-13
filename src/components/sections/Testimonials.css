@@ -1,0 +1,32 @@
+.testimonials {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+    color: #2e7d32;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 24px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-card p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.testimonial-card h4 {
+    color: #2e7d32;
+}

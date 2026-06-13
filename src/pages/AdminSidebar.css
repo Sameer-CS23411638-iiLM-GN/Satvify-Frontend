@@ -1,0 +1,30 @@
+.admin-sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: #1b4332;
+    color: white;
+    padding: 20px;
+}
+
+.admin-sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-sidebar li {
+    margin-bottom: 15px;
+}
+
+.admin-sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.admin-sidebar a:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+.subscriptions-page {
+    padding: 40px;
+}
+
+.subscription-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.subscription-card button {
+    margin-top: 15px;
+    padding: 10px 16px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
